@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
 
   extends: [
-    ['../nuxt-layer-test-layer', { install: true }],
-    // ['github:leeovery/nuxt-layers/base', { install: true }]
+    // ['../nuxt-layer-test-layer', { install: true }],
+    ['github:leeovery/nuxt-layer-test-layer', { install: true }]
   ],
 });
